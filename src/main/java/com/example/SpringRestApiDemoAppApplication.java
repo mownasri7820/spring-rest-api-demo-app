@@ -14,6 +14,10 @@ public class SpringRestApiDemoAppApplication {
 	public String home(){
 		return "Hello World";
 	}
+	@RequestMapping("/test")
+	public String testHome(){
+		return "Welcome";
+	}
 
 	//public String requestMethodName(@RequestParam String param) {
 	//	return new String();
